@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+
+    z-index:  -1;
+  }
+
+  .content {
+    /*position: fixed;
+    bottom: 0;*/
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    overflow:auto;
+    box-sizing: border-box;
+  }
+
+div{
+        background-color:aliceblue;
+        border-style: solid;
+        border-color: black;
+        text-align: center;
+}
+
+
+select{
+
+    
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     text-align: center;
+     background-color: aliceblue;
+     border-style: solid;
+     border-color: black;
+
+}
+
+section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.texto{
+  color: white;
+}
+p{
+  color: black;
+}
+
