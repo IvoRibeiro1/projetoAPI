@@ -30,7 +30,7 @@ function pedirFormula() {
 
     let ano = this.value;
 
-    let urlDrivers = `http://ergast.com/api/f1/${ano}/drivers.json`;
+    let urlDrivers = `https://ergast.com/api/f1/${ano}/drivers.json`;
 
     pedido_GET(urlDrivers,mostrarDrivers)
 
@@ -96,14 +96,8 @@ function mostrarDrivers(){
 
 }
 
-divdrivers.addEventListener('click',maisInfo)
+//divdrivers.addEventListener('click',maisInfo)
 
-function maisInfo(){
-
-
-
-
-}
 
 function pedido_GET( url, callback ) {
     let xhr = new XMLHttpRequest();
